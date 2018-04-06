@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="../css/index.css">
 
-    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/index_backup.js"></script>
 </head>
 <body>
 <div class="center">
@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    <script src="../js/common.js"></script>
+    <script src="../js/navMenu.js"></script>
 
     <div id="task_large">
             <ul>
@@ -51,15 +51,43 @@
                 <li id="add"><a href="">+</a></li>
             </ul>
     </div>
-    <script>
-        var taskT=document.getElementById('task_title');
-        var taskD=document.getElementById('task_detail');
-        var hovertime;
-         taskT.onmouseover=function () {
-             hovertime=setTimeout( "taskD.style.display='block'",500)
-             };
-        taskT.onmouseout=function () { clearTimeout(hovertime); taskD.style.display='none'; };
+
+
+    <div id="task_small">
+        <ul>
+            <li><a href="">task1</a></li>
+            <li><a href="">task2</a></li>
+        </ul>
+    </div>
+    <div id="task_info">
+        <!--here show the info for the task,get from database-->
+        <h1>Task1</h1>
+        testtesttesttesttesttesttesttesttest
+        testtesttesttesttesttesttesttesttesttesttest
+        testtesttesttesttesttesttesttesttesttest
+        testtesttesttesttesttesttesttest
+        testtesttesttesttesttesttesttest
+
+    </div>
+    <script >
+
     </script>
+
+    <div id="timeDiv">
+        create time table here
+    </div>
+    <div id="detailDiv">
+        <div>
+            <!--maybe use a textarea-->
+            <!--<textarea name="" id="" cols="30" rows="10"></textarea>-->
+            add description
+        </div>
+        <div>
+            <input id="editButton" type="submit" value="Edit" >
+        </div>
+    </div>
+
+
 
     <div id="GroupInfoDiv" class="border_default">
         <div class="InfoHeader">
@@ -76,12 +104,11 @@
         </div>
     </div>
     <script >
-        var  taskShow=document.getElementById('GroupInfo');
-        taskShow.onclick=function (ev) {
-                var  taskL=document.getElementById('task_large');
-                taskL.style.display='none';
-        }
+
     </script>
+
+
+
 </div>
 </body>
 </html>

@@ -1,5 +1,4 @@
 
-
 var set=document.getElementById('homepage');
 var log=document.getElementById('logout');
 var setC=set.onmouseover=function () {  log.style.display='block'; };
