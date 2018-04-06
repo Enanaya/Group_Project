@@ -1,0 +1,22 @@
+#timeDiv{
+    float: left;
+    flex: 1;
+    border-right: 1px solid black;
+}
+#TimeTable {
+    border: 2px solid black;
+}
+
+#detailDiv {
+    padding: 30px;
+    float: left;
+    flex: 1;
+}
+
+#editButton {
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}

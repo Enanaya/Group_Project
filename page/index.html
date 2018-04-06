@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <!--Introduce initialization css file-->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!--basic style for header and bottom-->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <link rel="stylesheet" href="../css/index.css">
+
+    <script src="../js/jquery-3.3.1.js"></script>
+</head>
+<body>
+<div class="center">
+    <div class="menu ">
+        <div class="menu ">
+            <div class="setting">
+                <div id="homepage" class="border_default" ><a href="index.html"></a></div>
+                <div id="logout" class="border_default" ><a href="">logout</a></div>
+            </div>
+            <ul>
+                <!--task.html-->
+                <li id="Task"><a>MyTask</a></li>
+                <!--timetable.html-->
+                <li id="TimeTable"><a>TimeTable</a></li>
+                <!--GroupInfo.html-->
+                <li id="GroupInfo"><a>Group Info</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/common.js"></script>
+
+    <div id="task_large">
+            <ul>
+                <!--just do a example,need to create dynamically-->
+                <!--two li as a group-->
+                <li id="task_title" class="border_default"><a href="task.html">task1</a></li>
+                <li id="task_detail" class="border_default"><div>------------------------------------
+                --------------------------------------------------------------
+                --------------------------------------------------------------
+                --------------------------------------------------------------
+                --------------------------------------------------------------
+                --------------------------------------------------------------</div></li>
+                <li><a href=""></a></li>
+                <li></li>
+
+                <!--last li:add-->
+                <li id="add"><a href="">+</a></li>
+            </ul>
+    </div>
+    <script>
+        var taskT=document.getElementById('task_title');
+        var taskD=document.getElementById('task_detail');
+        var hovertime;
+         taskT.onmouseover=function () {
+             hovertime=setTimeout( "taskD.style.display='block'",500)
+             };
+        taskT.onmouseout=function () { clearTimeout(hovertime); taskD.style.display='none'; };
+    </script>
+
+    <div id="GroupInfoDiv" class="border_default">
+        <div class="InfoHeader">
+            <div class="avatar">
+                <img id="avatarImg" src="" alt="">
+            </div>
+            <div>
+                <h3> my group is photo</h3>
+            </div>
+        </div>
+
+        <div id="GroupDetail">
+            add detail here
+        </div>
+    </div>
+    <script >
+        var  taskShow=document.getElementById('GroupInfo');
+        taskShow.onclick=function (ev) {
+                var  taskL=document.getElementById('task_large');
+                taskL.style.display='none';
+        }
+    </script>
+</div>
+</body>
+</html>
