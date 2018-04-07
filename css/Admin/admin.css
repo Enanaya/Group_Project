@@ -1,0 +1,17 @@
+#MainTable{
+    margin: 0 50%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+}
+
+thead th {
+    white-space: nowrap;
+    padding: 10px;
+    alignment: center;
+}
+td {
+    text-align: center;
+}
+caption a {
+    alignment: left;!important;
+}

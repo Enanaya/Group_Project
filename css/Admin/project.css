@@ -1,0 +1,14 @@
+.container{
+    margin: 0 25%;
+    margin-top: 50px;
+    padding: 0;
+    width: 823px;
+}
+.function{
+    width: 823px;
+    margin-bottom: 5px;
+}
+#confirmB{
+    float: right;
+    margin-top: -5px;
+}

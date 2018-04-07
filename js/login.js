@@ -1,4 +1,4 @@
-var str=""
+var str="";
 function checkform() {
     var usernameip=checkname();
     var pass=checkpass();

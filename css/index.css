@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.border2{
+    border: 2px solid black;
+}
+
+
 /*task_large part start*/
 #task_large {
     flex: 1;
@@ -95,6 +100,10 @@
     width: 117px;
     box-sizing: border-box;
 }
+#GroupInfo{
+    box-sizing: border-box;
+    font-size: 17px;
+}
 
 /*menu part end*/
 
@@ -129,6 +138,9 @@
     width: 115px;
     transition: all 0.6s;
 }
+#task_small li{
+    cursor: pointer;
+}
 /*task_small part end*/
 
 /*task_large part start*/
@@ -137,6 +149,9 @@
     background-color: pink;
     padding: 20px;
     display: none;
+}
+#task_large li{
+    cursor: pointer;
 }
 /*task_large part end*/
 
@@ -148,9 +163,9 @@
     border-right: 1px solid black;
     display: none;
 }
-#TimeTable {
-    border: 2px solid black;
-}
+/*#TimeTable {*/
+    /*border: 2px solid black;*/
+/*}*/
 
 #detailDiv {
     padding: 30px;
