@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <a href="admin.html">back</a>
+        <a href="leader.php">back</a>
         <form action="" method="post" id="MemberInfo">
            <p> ID <input type="text"></p>
             <p> NAME  <input type="text"></p>

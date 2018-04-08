@@ -5,15 +5,15 @@
     <title>Admin</title>
     <!--Introduce initialization css file-->
     <link rel="stylesheet" href="../../css/normalize.css">
-    <link rel="stylesheet" href="../../css/Admin/admin.css">
+    <link rel="stylesheet" href="../../css/Admin/leader.css">
 </head>
 <body>
     <div class="container">
         <table id="MainTable" border="1">
-            <caption>Project1 <a href="project.html"><button>edit</button></a></caption>
+            <caption>Project1 <a href="project.php"><button>edit</button></a></caption>
             <thead>
             <tr >
-                <th>MemberID <a href="add.html"><button>+</button></a></th>
+                <th>MemberID <a href="add.php"><button>+</button></a></th>
                 <th>Name </th>
                 <th >Status </th>
                 <th >Operation </th>
@@ -24,7 +24,7 @@
                 <td>data</td>
                 <td>data</td>
                 <td>status</td>
-                <td><a href="MemberEdit.html"><button>edit</button></a></td>
+                <td><a href="MemberEdit.php"><button>edit</button></a></td>
             </tr>
             </tbody>
             <tfoot>

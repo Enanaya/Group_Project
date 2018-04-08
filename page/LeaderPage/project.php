@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="function">
-        <a href="admin.html">back</a>
+        <a href="leader.php">back</a>
         <button id="confirmB">confirm</button>
         </div>
         <textarea  name="description" id="" cols="100" rows="30" class="Text">1st:asdqwrsevwegerghseryhgdfhqqqqqqqqqqqqqqqqqqqqqqqqqq

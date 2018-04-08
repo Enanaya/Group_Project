@@ -14,7 +14,7 @@
     padding: 40px 25px;
 }
 
-#task_title {
+.task_title {
     text-align: center;
     font-size: 23px;
     border-radius: 8px;
@@ -23,11 +23,11 @@
     line-height: 45px;
 }
 
-#task_title a {
+.task_title a {
     display: block;
 }
 
-#task_detail {
+.task_detail {
     padding: 0 10px;
     display: none;
     border-top: 0;
@@ -35,7 +35,7 @@
     margin:0 auto;
 }
 
-#task_detail div {
+.task_detail div {
     padding: 10px;
 }
 

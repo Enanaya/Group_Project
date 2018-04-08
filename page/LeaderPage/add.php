@@ -30,8 +30,8 @@
         <tr>
             <td>LeaderName</td>
             <td>"LeaderName"</td>
-            <td><a href="admin.html"><button>MainTable</button></a></td>
-            <td><a href=""><button>logout</button></a></td>
+            <td></td>
+            <td><a href="leader.php"><button>MainTable</button></a></td>
         </tr>
         </tfoot>
     </table>

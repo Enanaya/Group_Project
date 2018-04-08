@@ -1,6 +1,6 @@
 // method about show and hide of task_title and task_detail
-var taskT=document.getElementById('task_title');
-var taskD=document.getElementById('task_detail');
+var taskT=document.getElementById('title');
+var taskD=document.getElementById('detail');
 var hovertime;
 taskT.onmouseover=function () {
     hovertime=setTimeout( "taskD.style.display='block'",500)
