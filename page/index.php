@@ -16,7 +16,7 @@
     <div class="menu ">
         <div class="menu ">
             <div class="setting">
-                <div id="homepage" class="border_default" ><a href="index.html"></a></div>
+                <div id="homepage" class="border_default" ><a href="index.php"></a></div>
                 <div id="logout" class="border_default" ><a href="../page/Login.html">logout</a></div>
             </div>
             <ul>
@@ -35,8 +35,8 @@
             <ul>
                 <!--just do a example,need to create dynamically-->
                 <!--two li as a group-->
-                <li id="task_title" class="border_default"><a>Task1</a></li>
-                <li id="task_detail" class="border_default"><div>------------------------------------
+                <li id="title" class="task_title border_default"><a>Task1</a></li>
+                <li id="detail" class="task_detail border_default"><div>------------------------------------
                 --------------------------------------------------------------
                 --------------------------------------------------------------
                 --------------------------------------------------------------
